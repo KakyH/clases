@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todos los cursos</title>
+  <link rel="stylesheet" type="text/css" href="styles2.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <div class="sidebar-content">
+      <h1 class="sidebar-title">Cursos de Arduino y Electrónica</h1>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    <div class="toggle-btn" onclick="toggleSidebar()">
+      <i class="material-icons" id="menu-icon">menu</i>
+    </div>
+
+    <div class="main-content">
+      <h2>Todos los cursos</h2>
+      <div class="course">
+        <h3>Curso de Electrónica Básica</h3>
+        <p>Aprende los fundamentos de la electrónica y los componentes básicos utilizados en circuitos electrónicos. En este curso, cubriremos temas como resistencias, capacitores, inductores, diodos y transistores. También aprenderás a leer esquemas electrónicos y construir circuitos simples.</p>
+        <a href="#" class="btn">Más información</a>
+      </div>
+      <div class="course">
+        <h3>Curso de Arduino Avanzado</h3>
+        <p>Este curso te llevará más allá de los fundamentos de Arduino y te enseñará a trabajar con sensores avanzados, comunicación inalámbrica, pantallas LCD y otros módulos adicionales. Aprenderás a crear proyectos más complejos y a programar Arduino para realizar tareas específicas.</p>
+        <a href="#" class="btn">Más información</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
